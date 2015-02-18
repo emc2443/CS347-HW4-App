@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9BB9B92-B6B6-5358-AFD6-3056DE53DD65" name="SIM_manager">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-13 16:43:49 UTC</createdTime>
+<generatorID>0E6D92D8-37F4-A691-5063-5B6F9581F846</generatorID>
+<ownerDesignName>SIM Conceptual Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="1ADFE0B7-6080-7112-0A71-38F30598C4FF">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-13 16:43:49 UTC</createdTime>
+<generatorID>D66A2BCB-8BED-3BDF-D4B3-84BAFF1DB2D5</generatorID>
+<ownerDesignName>SIM Conceptual Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>F6BC733B-D013-BE77-C6F2-CD7042EE6ED5</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D4DAA15-C88F-B882-6DF2-F5D2FEC338A9" referredColumn="F6BC733B-D013-BE77-C6F2-CD7042EE6ED5"/>
+</associations>
+</Column>
+<Column name="title" id="8673EC27-8C6F-9757-766C-AC02DE2E294E">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-13 16:43:49 UTC</createdTime>
+<generatorID>17C558DF-2592-8F4F-55C0-34AA9FA6F513</generatorID>
+<ownerDesignName>SIM Conceptual Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bonus" id="E0273998-AEBE-AFF0-F9D4-5C4B5F9FF394">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-13 16:43:49 UTC</createdTime>
+<generatorID>91501174-D2E7-1992-F702-19B8866C0166</generatorID>
+<ownerDesignName>SIM Conceptual Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_dept_dept_id" id="8C83195A-0B1E-6E6F-5ADC-808EA069C96A">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-13 16:43:49 UTC</createdTime>
+<generatorID>367C5EF7-5601-0088-8D57-2B7E12464C0B</generatorID>
+<ownerDesignName>SIM Conceptual Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>0C3A694B-8895-F0F1-8B85-E6F605FFB2E0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="915B7E18-8F18-12D4-FDAE-A2060A6D542E" referredColumn="0C3A694B-8895-F0F1-8B85-E6F605FFB2E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F28F31DF-925C-1AA6-DF69-41850A2B9E05" name="SIM_manager_PK">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-13 16:43:49 UTC</createdTime>
+<generatorID>FE9D3C60-5CDF-F37A-2747-E1EC055FFCE9</generatorID>
+<ownerDesignName>SIM Conceptual Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ADFE0B7-6080-7112-0A71-38F30598C4FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="031D45B3-F485-A992-5161-469677ED4942" name="SIM_manager__IDX">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-13 16:43:49 UTC</createdTime>
+<ownerDesignName>SIM Conceptual Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F292037D-B67D-1F48-B3FA-9FE2DE94827E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8C83195A-0B1E-6E6F-5ADC-808EA069C96A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BCBBCDB-DE12-DBDF-4F8F-1C2B8B1D32B2" name="SIM_manager_SIM_emp_FK">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-13 16:43:49 UTC</createdTime>
+<generatorID>02E2B772-2392-DBC0-EA37-502A4994A3B7</generatorID>
+<ownerDesignName>SIM Conceptual Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ADFE0B7-6080-7112-0A71-38F30598C4FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="716264E7-5123-D220-362D-56E54D45D1F4" name="SIM_manager_SIM_dept_FK">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-13 16:43:49 UTC</createdTime>
+<generatorID>F292037D-B67D-1F48-B3FA-9FE2DE94827E</generatorID>
+<ownerDesignName>SIM Conceptual Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C83195A-0B1E-6E6F-5ADC-808EA069C96A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

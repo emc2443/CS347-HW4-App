@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SIM Logical Model" id="46BD1ADA-51F7-9E0A-705B-90E839AC194E" version="3.5">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-15 22:45:00 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>46BD1ADA-51F7-9E0A-705B-90E839AC194E</designId>
+</OSDM_Design>

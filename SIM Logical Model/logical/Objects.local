@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="A4B90011-D3D1-268E-278F-35AC3035AEC5" name="SIM_dept" seqName="seg_0"/>
+   <object objectType="Entity" objectID="EAABDE65-53F7-EC2B-B1B9-174E8167A8EE" name="SIM_person" seqName="seg_0"/>
+   <object objectType="Entity" objectID="7B44946B-EC20-C8C5-8657-16C4228E8217" name="SIM_project" seqName="seg_0"/>
+   <object objectType="Relation" objectID="501FA920-5DE4-179B-3533-5D36EC6031A7" name="Relation_1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3C081930-9855-B342-DDCA-B37E80A4F37E" name="Relation_2" seqName="seg_0"/>
+   <object objectType="Relation" objectID="DAD38F34-5431-EBCB-6D9A-EC649E6AE47F" name="Relation_3" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="A703A7B2-CAF4-9D1D-FCEA-56B5AEF45AA7" name="FKArc_1">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-13 16:43:49 UTC</createdTime>
+<ownerDesignName>SIM Conceptual Model</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>08660485-3DC4-C810-654B-7C275536F8AA</table>
+<fkeys>
+<fkeyID>46F3616F-326D-0B6D-4BB7-D3022FF08211</fkeyID>
+<fkeyID>3D4DAA15-C88F-B882-6DF2-F5D2FEC338A9</fkeyID>
+</fkeys>
+</FKArc>

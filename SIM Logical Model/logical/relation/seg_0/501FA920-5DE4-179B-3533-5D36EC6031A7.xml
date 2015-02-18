@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="501FA920-5DE4-179B-3533-5D36EC6031A7">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-15 23:00:51 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="C7F6BF3A-590C-73AE-D3C0-9A1F3CFC2D97" value="true"/>
+</engineerTo>
+<sourcePk>0ED7785F-9FF5-AD74-CEC1-AA1AD04C141C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EAABDE65-53F7-EC2B-B1B9-174E8167A8EE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7B44946B-EC20-C8C5-8657-16C4228E8217</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

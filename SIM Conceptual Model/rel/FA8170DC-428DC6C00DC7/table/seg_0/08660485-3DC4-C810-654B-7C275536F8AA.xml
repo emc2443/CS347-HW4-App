@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08660485-3DC4-C810-654B-7C275536F8AA" name="SIM_emp">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-13 16:43:49 UTC</createdTime>
+<generatorID>753B6BA9-9BDD-8885-3EDF-FDA877F3A61F</generatorID>
+<ownerDesignName>SIM Conceptual Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="F6BC733B-D013-BE77-C6F2-CD7042EE6ED5">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-13 16:43:49 UTC</createdTime>
+<generatorID>D66A2BCB-8BED-3BDF-D4B3-84BAFF1DB2D5</generatorID>
+<ownerDesignName>SIM Conceptual Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>9D85181B-D28A-15E9-821B-F9D828DD4479</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23936589-AD54-09B7-C593-8A30DC294504" referredColumn="9D85181B-D28A-15E9-821B-F9D828DD4479"/>
+</associations>
+</Column>
+<Column name="emp_id" id="2C453D6F-1E0B-C473-81A9-D5717BF9C10A">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-13 16:43:49 UTC</createdTime>
+<generatorID>E3614373-E67A-FA7E-861F-6F205946CFCD</generatorID>
+<ownerDesignName>SIM Conceptual Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hire_date" id="F133BA37-12E3-8C20-D647-67B2CED5D154">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-13 16:43:49 UTC</createdTime>
+<generatorID>CE729749-B918-6E57-D0A9-E73D2C65527A</generatorID>
+<ownerDesignName>SIM Conceptual Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="FCDD1E9E-ED56-3A37-1DF9-D01B9810C5EF">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-13 16:43:49 UTC</createdTime>
+<generatorID>81AB3543-4C0D-5350-8358-A343F809E05F</generatorID>
+<ownerDesignName>SIM Conceptual Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="78CC432F-9199-17D7-2773-456032745E33">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-13 16:43:49 UTC</createdTime>
+<generatorID>DFD802C4-5F0E-CA2F-A2CD-E9DEDBFE1D0D</generatorID>
+<ownerDesignName>SIM Conceptual Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B5E78B9-34BF-E45C-9FBE-325908D84290" name="SIM_emp_PK">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-13 16:43:49 UTC</createdTime>
+<generatorID>FE9D3C60-5CDF-F37A-2747-E1EC055FFCE9</generatorID>
+<ownerDesignName>SIM Conceptual Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6BC733B-D013-BE77-C6F2-CD7042EE6ED5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B21B74D2-55D7-ABB4-E7FC-D719CCABABF8" name="SIM_emp_PKv1">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-13 16:43:49 UTC</createdTime>
+<generatorID>2D34334C-53C2-2B36-D74A-EE144A00BDBF</generatorID>
+<ownerDesignName>SIM Conceptual Model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C453D6F-1E0B-C473-81A9-D5717BF9C10A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D28F4600-BFBF-DD31-EB45-CB9506C624E9" name="SIM_emp_SIM_Person_FK">
+<createdBy>Novelty</createdBy>
+<createdTime>2015-02-13 16:43:49 UTC</createdTime>
+<generatorID>48855938-C501-0EE3-81E9-27DC0ACA7FC6</generatorID>
+<ownerDesignName>SIM Conceptual Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6BC733B-D013-BE77-C6F2-CD7042EE6ED5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
